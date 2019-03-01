@@ -21,6 +21,7 @@ def tipe(angka):
             if angka>1:
                 for i in range(2,angka): #dibagi mulai dari 2
                     if angka%i==0: #jika dibagi suatu bilangan tidak ada sisa, maka lanjut
+                        y=0
                         break
                     else:
                         y=angka
